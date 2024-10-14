@@ -1,3 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: serif;
+}
+
+.home,
+.recipe{
+    width: 1200px;
+    margin: auto;
+    h1{
+        text-align: center;
+    }
+}
+
+.food-image{
+    display: block;
+    height: 512px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.recipe p{
+    text-align: center;
+    margin: auto;
+}
+
+.list{
+    li{padding: 3px;}
+}
+.list.steps{
+    text-align: justify;
 }
